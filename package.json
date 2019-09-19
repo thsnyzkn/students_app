@@ -1,0 +1,30 @@
+{
+  "name": "students_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thsnyzkn/students_app.git"
+  },
+  "keywords": [],
+  "author": "Tahsin Yazkan <tahsinyazkan@gmail.com> (tahsin.tech)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thsnyzkn/students_app/issues"
+  },
+  "homepage": "https://github.com/thsnyzkn/students_app#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/node": "^7.6.1",
+    "@babel/preset-env": "^7.6.0",
+    "nodemon": "^1.19.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.1.0"
+  }
+}
